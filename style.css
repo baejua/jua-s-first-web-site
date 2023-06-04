@@ -1,0 +1,26 @@
+
+body,html{height:100%;}
+body{background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6CEcF%2FbtqxVzYzsYJ%2FhW9z8hX5DgILkKPk8AYr70%2Fimg.png");
+    background-position: center; background-repeat: no-repeat;
+    background-size:cover;}
+h1{text-align:center; color:purple; margin:50px; font-size:60px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h2,h3{text-align:center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:green;}
+p, div{font-size: 25px;}
+div{line-height: 1.5;}
+.neon h3 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
